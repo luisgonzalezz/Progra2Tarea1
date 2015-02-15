@@ -33,7 +33,7 @@ public class Ejercicios
 		for(int i=1; i<=num; i++)  //Ciclo para calcular el factorial
 			 fact*=i;
 	}
-	return fact; //Fijo aqui se van a equivocar varios compa�eros
+	return fact; //Devuelve el calculo del factorial
 	}
 	
 
@@ -52,21 +52,21 @@ public class Ejercicios
 	//devuelve el atributo "x" de "MiClase"
 	static int getX(MiClase mi_clase)
 	{
-		return mi_clase.x;  //Ya saque 100!!!!
+		return mi_clase.x;  //Ya saque 100!!!! Devuelve el atributo "x" de miclase
 	}
 	
 	//implementar la funcion "getXPor2()" descrita en la clase "MiClase"
 	//No modificar esta funcion
 	static int implementarGetXPor2(MiClase mi_clase)
 	{
-		return mi_clase.getXPor2();
+		return mi_clase.getXPor2(); //Devuelve el atributo multiplicado por dos
 	}
 	
 	//implementar la funcion "getXPor2()" descrita en la clase "MiClase"
 	//No modificar esta funcion
 	static int implementarGetXMasY(MiClase mi_clase, int y)
 	{
-		return mi_clase.getXMasY(y);
+		return mi_clase.getXMasY(y); //
 	}
 	
 	//devuelve la funcion fibonacci de "num"
